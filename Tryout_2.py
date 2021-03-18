@@ -13,7 +13,7 @@ def process(a):
             mm1 = '0'+str(mm)
             if ss <10:
                 ss1 = '0'+str(ss)
-    print(hh1+':'+mm1+':'+ss1)
+    print(hh1,':',mm1,':',ss1)
   
 try:
     if type(eval(x)) == float:
